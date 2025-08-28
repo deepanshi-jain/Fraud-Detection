@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("fraud_detection_model.pkl")
 
-st.title("Cesar Fraud Detection App")
+st.title("Fraud Detection App")
 
 st.markdown("Please input the transaction details below:")
 
@@ -39,6 +39,7 @@ if st.button("Predict Fraud"):
 
 
 # to run use: streamlit run fraud_detection.py
+
 
 
 
